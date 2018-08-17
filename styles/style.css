@@ -1,0 +1,32 @@
+:root {
+    --seiu_purple: rgb(92,44,130);
+    --seiu_purple_light: rgb(103, 55, 143);
+    --seiu_yellow: rgb(252,206,45);
+}
+
+.container {
+    padding: 0;
+}
+
+.card {
+    background-image: linear-gradient(var(--seiu_purple_light), 15%, var(--seiu_purple));
+    color: #fff;
+    border-radius: 0px;
+}
+
+.card-title {
+    
+}
+
+.mb-0 { 
+    color: var(--seiu_yellow);
+    font-weight: bold;
+}
+
+.btn-link {
+    color: var(--seiu_yellow);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.
